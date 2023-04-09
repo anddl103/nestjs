@@ -1,0 +1,13 @@
+TRUNCATE `dev_store`.`menu_group`;
+TRUNCATE `dev_store`.`menu`;
+TRUNCATE `dev_store`.`menu_price`;
+TRUNCATE `dev_store`.`menu_signature`;
+TRUNCATE `dev_store`.`option_group`;
+TRUNCATE `dev_store`.`option`;
+TRUNCATE `dev_store`.`menu_option_group`;
+TRUNCATE `dev_store`.`tray`;
+TRUNCATE `dev_store`.`tray_option_group`;
+TRUNCATE `dev_store`.`tray_option`;
+TRUNCATE `dev_store`.`store_open_hour`;
+TRUNCATE `dev_store`.`store_break_hour`;
+TRUNCATE `dev_store`.`store_stop_hour`;

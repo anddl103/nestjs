@@ -1,0 +1,10 @@
+DROP TABLE `dev_store`.`menu_group`;
+DROP TABLE `dev_store`.`menu`;
+DROP TABLE `dev_store`.`menu_price`;
+DROP TABLE `dev_store`.`menu_signature`;
+DROP TABLE `dev_store`.`option_group`;
+DROP TABLE `dev_store`.`option`;
+DROP TABLE `dev_store`.`menu_option_group`;
+DROP TABLE `dev_store`.`tray`;
+DROP TABLE `dev_store`.`tray_option_group`;
+DROP TABLE `dev_store`.`tray_option`;

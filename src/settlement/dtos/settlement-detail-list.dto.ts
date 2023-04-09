@@ -1,0 +1,32 @@
+import { PickType } from '@nestjs/swagger';
+import { SettlementEntity } from '../../common/entities/settlements.entity';
+
+export class SettlementDetailListDTO extends PickType(SettlementEntity, [
+  'id',
+  'createdAt',
+  'createdDate',
+  'expectedDate',
+  'doneDate',
+  'paymentSnapshotId',
+  'paymentSnapshotDate',
+  'paymentSnapshotStatus',
+  'payMethod',
+  'orderNumber',
+  'salesPrice',
+  'orderPrice',
+  'userDeliveryPrice',
+  'paymentPrice',
+  'voucherPrice',
+  'settlementPrice',
+  'deductionPrice',
+  'ownerDeliveryPrice',
+  'discountPrice',
+  'agencyPrice',
+  'billingPrice',
+  'pointPrice',
+  'ownerCouponPrice',
+  'dnggCouponPrice',
+  'vatPrice',
+  'status',
+  'isCancelled',
+] as const) {}
